@@ -1,0 +1,2031 @@
+hardware:
+  Anti-theft Flooring Sys:
+    img_path : static\project_img\hardware\Anti-theft Flooring Sys\Anti-theft Flooring Sys.png
+    
+    desc : Detect & Notify the Theft Alert to User.
+    tech : Website, ESP32-CAM, Servo, Piezo Sensor
+    domain : IoT
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Anti_theftFlooringSys
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Detects theft by stepping on a tile
+        - Camera points to the tile
+        - Captures and uploads picture to server
+        - Website displays picture with timestamp
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - when system is ON
+        - where ever any theft steps on the tile 
+        - then the camera will point to that tile 
+        - and then capture the picture of the theft 
+        - and uploads it to the server
+        - the website will show the picture of the theft with timestamp
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32-CAM, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), Peizo Sensor, other electronics
+
+        <br>
+        <br>
+
+        # Problem Statement:
+        =====================<br>
+        Theft detection is crucial for securing premises, but conventional systems often lack real-time responsiveness and accurate targeting. Many systems are unable to precisely capture evidence when a theft occurs, leading to inadequate security measures. This project addresses the need for a responsive and accurate theft detection system that not only identifies the exact location of the theft but also captures and uploads images in real time, enhancing overall security and providing reliable evidence for authorities.
+
+        <br>
+        <br>
+
+
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\general parts\pizo sensor.png
+      - static\project_img\hardware\general parts\servo.jpeg
+      - static\project_img\hardware\general parts\esp32-cam.png
+      - static\project_img\hardware\general parts\arduino nano.png
+      - static\project_img\hardware\general parts\arduino ide.png
+      - static\project_img\hardware\general parts\embbed c.png
+      - static\project_img\hardware\general parts\leds.png
+      - static\project_img\hardware\general parts\white cardboard.png
+
+
+  Organ Stiching Machine:
+    img_path : static\project_img\hardware\Organ Stiching Machine\Organ_Stiching_Machine_main.jpg
+    desc : The User can Practice the Organ Stiching with our System.
+    tech : Website, ESP32, SERVO Motor, Buzzer
+    domain : IoT, Robotics
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20OrganStichingMachine
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Human operator controls the robotic controller.
+        - Robotic arm performs the organ stitching.
+        - Operator presses the "done" button after stitching.
+        - System updates the practice trial count.
+        - Provides real-time feedback and practice tracking.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - the human controlls the Robotic controller 
+        - and then controls the robotic Arm
+        - he will be able to stitch the organ  
+        - after the orgen is stitched then he can presses the done button
+        - to update its practice trial count
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), Potentiometer
+        <br>
+        <a class="hover:text-indigo-500" href="https://www.youtube.com/watch?v=8D4_rlIo-JE">url : https://www.youtube.com/watch?v=8D4_rlIo-JE</a>
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Practicing organ stitching in robotic surgery requires precise control and feedback to simulate real surgical conditions. Traditional methods may lack the accuracy and responsiveness needed for effective training. This project aims to provide a realistic practice environment by allowing users to control a robotic arm to stitch organs, enhancing their skills and confidence. The system tracks practice trials, providing valuable feedback for continuous improvement, thereby addressing the need for advanced surgical training tools.
+
+        <br>
+        <br>
+
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Organ Stiching Machine\Organ_Stiching_Machine_2.jpg
+      - static\project_img\hardware\general parts\servo.jpeg
+      - static\project_img\hardware\general parts\arduino nano.png
+      - static\project_img\hardware\general parts\potentiometer.png
+      - static\project_img\hardware\general parts\preset potentiometer.png
+      - static\project_img\hardware\general parts\arduino ide.png
+      - static\project_img\hardware\general parts\embbed c.png
+      - static\project_img\hardware\general parts\leds.png
+
+
+  Robotic ARM for Material Segregation:
+    img_path : static\project_img\hardware\Robotic ARM - Material Segregator\Robotic ARM.jpg
+    desc : The Smart Automatic Robotic ARM will seprate materials. Metal, non-metal and then non-metal further classified based on COLOR.
+    tech : Website, ESP32, Battery, 4x4 Keypad, Oled
+    domain : IoT, Robotics
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20RoboticARMMaterialSegregator
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Robotic arm designed for material segregation: metal, plastic, magnet.
+        - Utilizes ESP32 for wireless communication and control.
+        - Implements SERVO motors for precise arm movements.
+        - Backend server built with Python-Flask for data processing.
+        - Frontend interface developed using Tailwind CSS for a sleek user experience.
+        - Includes components like Arduino Nano, LEDs (RED + BLUE), and a buzzer for feedback.
+        
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - Robotic arm will be able to Segregate the materials like
+        - metal, non-metal and then non-metal further classified based on COLOR
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE)
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Assembling a robotic arm capable of accurately segregating materials (metal, plastic, magnet) poses challenges in hardware integration and software synchronization, demanding robust coding in Embedded C and Python-Flask, ensuring seamless operation and data management.
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\general parts\servo.jpeg
+      - static\project_img\hardware\general parts\arduino nano.png
+      - static\project_img\hardware\general parts\potentiometer.png
+      - static\project_img\hardware\general parts\preset potentiometer.png
+      - static\project_img\hardware\general parts\arduino ide.png
+      - static\project_img\hardware\general parts\embbed c.png
+      - static\project_img\hardware\general parts\leds.png
+      - static\project_img\hardware\general parts\white cardboard.png
+
+
+
+  EMO Robot Clone:
+    img_path : static\project_img\hardware\EMO Robot\EMO Robot.jpg
+    desc : EMO Robot clone designed for Personalized Entertainment by displaying Facial Expressions, Emotions, etc
+    tech : Website, ESP32, battery, SERVO Motor, Oled
+    domain : IoT, Robotics
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20EMORobotClone
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - EMO Robot clone designed for personalized entertainment.
+        - Displays facial expressions and emotions using OLED display.
+        - Capable of walking and dancing with unique choreography.
+        - Controlled via a mobile app for user interaction.
+        - Includes real-time database integration for personalized settings and updates.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - able to entertain you
+        - can display the face and emotion
+        - can walk 
+        - can dance (in its own way)
+        - can be controlled using mobile app
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite), Mobile App
+        <br>
+        Components : ESP32-CAM, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), Oled, Touch Sensor
+        <br>
+        <a class="hover:text-indigo-500" href="https://www.youtube.com/watch?v=abqUMxj-1WI">url : https://www.youtube.com/watch?v=abqUMxj-1WI</a>
+
+        <br>
+        Note : only some part will be implemented
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Creating a distinctive EMO Robot clone for entertainment requires integrating hardware and software seamlessly, using Embedded C and Python-Flask. Challenges include ensuring synchronized movement and expression display, developing a user-friendly mobile app interface, and maintaining database connectivity for personalized user interactions and updates.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\EMO Robot\EMO Robot.jpg
+      - static\project_img\hardware\general parts\servo.jpeg
+      - static\project_img\hardware\general parts\arduino nano.png
+      - static\project_img\hardware\general parts\potentiometer.png
+      - static\project_img\hardware\general parts\preset potentiometer.png
+      - static\project_img\hardware\general parts\arduino ide.png
+      - static\project_img\hardware\general parts\battery.jpeg
+      - static\project_img\hardware\general parts\oled.jpeg
+
+
+
+  SALTO - The Jumping Robot:
+    img_path : static\project_img\hardware\SALTO - The Jumping Robot\SALTO - The Jumping Robot.png
+    desc : SALTO - The Jumbing Robot is used for learning purpose. 
+    tech : Website, ESP32, Servo Motor
+    domain : IoT
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SALTOTheJumpingRobot
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - SALTO, a jumping robot optimized for high jumps.
+        - Primarily designed for rapid locomotion.
+        - Focuses on advancing research and development in robotics.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - able to jump high
+        - main use case is to run fast
+        - its an research and development project
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), many more ... 
+        <br>
+        url : https://www.youtube.com/watch?v=xvIk39rkkiU
+        <br>
+        Note : only some part will be implemented
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Developing SALTO, a high-jumping robot, involves overcoming challenges in hardware integration and software synchronization, utilizing Embedded C and Python-Flask. Key challenges include optimizing SERVO motors for high-performance jumps, ensuring precise control and synchronization of movements, and integrating a responsive user interface using Tailwind CSS for enhanced user interaction and real-time data management through SQLite database integration.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\general parts\servo.jpeg
+      - static\project_img\hardware\general parts\arduino nano.png
+      - static\project_img\hardware\general parts\arduino ide.png
+      - static\project_img\hardware\general parts\battery.jpeg
+
+
+
+  MIT Transform Smart Desk:
+    img_path : static\project_img\hardware\MIT Transform Smart Desk\MIT Transform Smart Desk.jpg
+    desc : It makes interactive visualizations...
+    tech : Website, ESP32, Servo, Buzzer
+    domain : IoT
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20MIT_TransformSmartDesk
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - MIT Transform Smart Desk with gamified features.
+        - Displays interactive bar graphs for visualizing profit metrics.
+        - Shows emotional expressions using LED-based emojis.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - able to give gamemifed feel
+        - able to show the bar graph(profit graph)
+        - able to show the emogi (emotional) expression 
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), many more ... 
+        <br>
+        url : https://www.youtube.com/watch?v=lCARHatJQJA&t=189s
+        <br>
+        Note : only some part will be implemented
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Developing the MIT Transform Smart Desk involves integrating hardware components like ESP32, SERVO motors, and LEDs with software technologies such as Embedded C and Python-Flask. Challenges include synchronizing data visualization (e.g., profit graphs) and emotion display (via emojis) on a frontend built with Tailwind CSS, ensuring real-time updates and user engagement through a SQLite database backend.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\MIT Transform Smart Desk\MIT Transform Smart Desk.jpg
+      - static\project_img\hardware\MIT Transform Smart Desk\transform.jpg
+      - static\project_img\hardware\general parts\servo.jpeg
+      - static\project_img\hardware\general parts\arduino ide.png
+
+
+
+  House Inventory Management Sys:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Able to notify , suggest house hold products.
+    tech : Website, ESP32, Oled, Buzzer
+    domain : IoT
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20HouseInventoryManagementSys
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - IoT system for house inventory management.
+        - Tracks incoming items and products in real-time.
+        - Analyzes consumption rates and predicts future requirements.
+        - Generates recommendations for purchasing items, creating a detailed shopping cart list.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - can track the incoming items / products
+        - can analyse the consumption rate and predicting the Requirements
+        - can recommend to the buying itmes/product (will make a full cart item list with needed details)
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), many more ... 
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Implementing a robust house inventory management IoT system involves integrating hardware components like ESP32, SERVO motors, and LEDs with software technologies such as Embedded C and Python-Flask. Challenges include real-time tracking of inventory, accurate consumption rate analysis, and seamless recommendation generation based on predictive algorithms, all managed through a user-friendly frontend built with Tailwind CSS and supported by a SQLite database backend.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+
+
+  Pani Puri Maker Robot:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Makes the pani puri, handles the online payment
+    tech : Website, ESP32, battery, 4x4keypad, Oled
+    domain : IoT
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20PaniPuriMakerRobot
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - SMART Pani Puri Maker Robot designed for automated pani puri preparation.
+        - Takes orders and customizes spice levels (thikha, medium-thikha, metha, etc.).
+        - Fills and serves pani puri using automated mechanisms.
+        - Supports online payment transactions only.
+
+        <br>
+        <br>
+
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - can make order
+        - can define (thikha, medium-thikha, metha, etc)
+        - can fill and serve the pani puri
+        - only online payment
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), pipe, pump, solonoid valve, etc
+        <br>
+        <br>
+
+        # Problem Statement:
+        =====================<br>
+        Developing the SMART Pani Puri Maker Robot involves integrating hardware components such as ESP32, SERVO motors, pumps, solenoid valves, and sensors with software technologies like Embedded C and Python-Flask. Challenges include ensuring precise ingredient dispensing, seamless order processing, and secure online payment handling, all presented through a user-friendly frontend built with Tailwind CSS and managed by a SQLite database backend.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+
+
+  Smart Pill Reminder:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Register the Medicine timing and get Notified...
+    tech : Website, ESP32, Oled, buzzer
+    domain : IoT
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartPillReminder
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Smart Pill Reminder for personalized medication management.
+        - Allows users to input medicine details and schedule timings.
+        - Provides notifications using a buzzer for timely medication reminders.
+        - Dispenses only the required medicine as per the scheduled dosage.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - able to enter the medicine details and timing
+        - able to get notification of the medicine with buzzer and get only required medicine only
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE)
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Developing the Smart Pill Reminder requires integrating ESP32, SERVO motors, Arduino IDE, and other components with Embedded C and Python-Flask. Challenges include accurate scheduling and dispensing of medications, ensuring reliable notification systems, and maintaining a user-friendly interface using Tailwind CSS and SQLite database backend for seamless management of medication schedules and reminders.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+
+
+  Smart Vending Machine:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Register the vendors, buy the product by doing online payment.
+    tech : Website, ESP32, Oled, buzzer, Motor
+    domain : IoT
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartVendingMachine
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Smart Vending Machine designed for versatile product handling and sales.
+        - Segregates products from any vendor into designated segments for selling.
+        - Allows clients to purchase products using online payment methods.
+        - Facilitates automatic payment transfers to vendors at the end of each month.
+        - Tracks sales data to analyze consumption patterns and recommends high-demand products.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - can put products buy any vendor into their segments for selling
+        - clients can purchase the product with online payment
+        - at the month end the vendor gets their money 
+        - can track the portfolio and make analysis on the sales & suggest the product with high consumption
+        - to purchase enter the number of the product and do payment
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), gear motor
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Creating a Smart Vending Machine involves integrating ESP32, SERVO motors, gear motors, and other components with Embedded C and Python-Flask. Challenges include precise product handling and segmentation, ensuring secure online payments, and developing analytical tools for sales tracking and product recommendations. The frontend using Tailwind CSS and SQLite database backend must support intuitive user interfaces and seamless transaction management for optimal vending machine operations and vendor relations.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+
+
+  IoT Interactive Aquarium:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Control Lights and Fish Feeding and automate it... 
+    tech : Website, ESP32, battery, motor, etc
+    domain : IoT
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20IoTInteractiveAquarium
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - IoT Interactive Aquarium for advanced aquatic management.
+        - Controls aquarium lights and enables manual/auto feeding.
+        - Displays fish information via mobile app by scanning QR codes.
+        - Creates an aquarium portfolio to track fish age and suggests care requirements.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - able to control lights and manula/auto feeding
+        - display the fish information on mobile app after scanning QR controlled
+        - can make portfolio of the Aquarium and track their age 
+        - and suggest their care requirements 
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32-CAM, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE)
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Developing the IoT Interactive Aquarium involves integrating ESP32-CAM, SERVO motors, Arduino IDE, and other components with Embedded C and Python-Flask. Challenges include ensuring seamless control of lighting and feeding mechanisms, developing a QR code scanning system for fish information display, and implementing a robust portfolio management feature to monitor fish age and provide timely care recommendations. The frontend using Tailwind CSS and SQLite database backend must support user-friendly interfaces for effective aquarium management and fish care.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+
+
+  Smart Locker System:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Multi Factor Auth to open the locker...
+    tech : Website, ESP32, electronic lock
+    domain : IoT
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartLockerSystem
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - IoT Smart Locker System with multi-factor authentication.
+        - Registers clients securely and unlocks lockers using 4-factor authentication.
+        - Fingerprint recognition
+        - RFID card scanning
+        - Google Email OTP (20 seconds validity)
+        - Mobile App OTP (20 seconds validity)
+        - Hardware remote for manual control.
+
+        <br>
+        <br>
+
+        # Fast Concept Catchup:
+        ======================<br><br>
+
+        - able to register the client
+        - unlock the locker with 4 Factor Authentication 
+        - (finger print, RFID CARD, GEmail OTP-[20 sec], Mobile App OTP-[20 sec], Hardware Remote)
+
+        <br>
+        <br>
+
+        # Details:
+        =====================<br>
+        TechStack  : Embedded C, Python-Flask(Backend:Server), Tailwind CSS (Frontend), Database (SQLite) 
+        <br>
+        Components : ESP32, SERVO motor, Arduino IDE, Arduino Nano, Buzzer, LEDs(RED+BLUE), electronic lock
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Developing the IoT Smart Locker System requires integrating ESP32, SERVO motors, electronic locks, and other components with Embedded C and Python-Flask. Challenges include ensuring robust security through multi-factor authentication methods, seamless client registration, and secure locker access management. The frontend using Tailwind CSS and SQLite database backend must provide a user-friendly interface for client registration, authentication, and locker management, ensuring reliable and secure operation of the smart locker system.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+
+  # -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  EBike Speed Controller System:
+    img_path : static\project_img\hardware\EBike Speed Controller System\img2.png
+    desc : Low-cost ESP32 eBike controller with speed display and efficient motor speed control.
+    tech : ESP32, Motor, Oled, Arduino
+    domain : Embedded Sys
+    markdowndetails : |
+
+        # Project Description:
+        ==============================<br>
+        The ESP32-based eBike controller system is designed to offer a low-cost, efficient, and user-friendly solution for electric bike enthusiasts. This innovative system utilizes the powerful and versatile ESP32 microcontroller to manage and control the speed of the eBike, providing a seamless and enjoyable riding experience. The key feature of this system is its ability to display real-time speed information on a screen, ensuring that riders can monitor their speed effortlessly and stay informed about their riding performance.
+
+        The controller is engineered to offer precise and responsive motor speed control, allowing riders to adjust their speed smoothly and efficiently. This enhances the overall safety and comfort of the ride, making it suitable for various terrains and riding conditions. The system is designed with cost-effectiveness in mind, making it an affordable option for eBike manufacturers and DIY enthusiasts alike.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        ====================<br>
+        Current eBike controllers are expensive, lack efficient motor speed control, and do not provide real-time speed display, necessitating a low-cost, efficient, and user-friendly solution.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==================<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:
+        =======================<br>
+        - --> Project Hardware
+        - --> Project Report
+    links: 
+      - static\project_img\hardware\EBike Speed Controller System\img1.png
+      - static\project_img\hardware\EBike Speed Controller System\img2.png
+      - static\project_img\hardware\EBike Speed Controller System\img3.png
+      - static\project_img\hardware\general parts\motor12v.png
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20EBikeSpeedControllerSystem
+  
+  Weather Station:
+    img_path : static\project_img\hardware\Weather Station\img-1.jpg
+    desc : ESP32 based Weather Station using DHT11, OLED, real-time weather data, low-cost, web visibility.
+    tech : ESP32, Motor, Oled, Arduino, ThingsSpeak, Static Website
+    domain : IoT
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20WeatherStation
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br>
+        The ESP32-based Weather Station is a comprehensive solution for monitoring real-time weather conditions with accuracy and efficiency. Utilizing the DHT11 sensor for temperature and humidity measurement and an OLED display for data visualization, this system offers a user-friendly interface for accessing essential weather information. Key parameters such as temperature, humidity, wind speed, and wind direction are continuously monitored, providing users with up-to-date data for informed decision-making.
+        <br><br>
+        Designed with cost-effectiveness and ease of installation in mind, the Weather Station offers a low-cost solution suitable for various applications. Its compact design and simple setup make it ideal for both personal and professional use, whether for home weather monitoring, agricultural applications, or educational purposes.
+        <br><br>
+        One of the standout features of this Weather Station is its integration with a custom website, where the collected weather data is displayed in real-time. This web visibility enhances accessibility, allowing users to remotely access weather information from anywhere with an internet connection. Whether checking weather conditions before outdoor activities, optimizing farming practices, or conducting research, the ESP32 Weather Station provides a reliable and efficient solution.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Current weather monitoring systems lack affordability, efficiency, and web integration, hindering accessibility to real-time weather data. A low-cost, efficient, and web-visible solution is needed for comprehensive weather monitoring.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation        
+    links: 
+      - static\project_img\hardware\Weather Station\img-1.jpg
+      - static\project_img\hardware\general parts\oled.jpeg
+      - static\project_img\hardware\general parts\dht11.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+
+  
+  Smart Home Controlling System:
+    img_path : static\project_img\hardware\Smart Home Controlling System\img1.png    
+    desc : Mobile app, website, monitors temperature, humidity, controls appliances.
+    tech : ESP32, Arduino, ThingsSpeak, Static Website, Mobile App
+    domain : IoT
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartHomeControllingSystem
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br>
+        The Smart Home Controlling System is a versatile solution for remotely managing household appliances and monitoring environmental conditions. With the capability to control up to four appliances via a mobile app and website interface, users can easily adjust settings and automate routines from anywhere with an internet connection. This system provides convenience and flexibility, allowing users to turn appliances on or off, set timers, and create personalized schedules to optimize energy usage and enhance home automation.
+        <br>
+        In addition to appliance control, the system also offers real-time monitoring of room temperature and humidity levels. By providing insights into indoor environmental conditions, users can ensure comfort and well-being, as well as make informed decisions regarding heating, cooling, and ventilation systems.
+        <br>
+        The Smart Home Controlling System features a custom-designed website and mobile app, offering intuitive interfaces for seamless user experience. Utilizing ThingSpeak as an online database ensures secure storage and accessibility of data, enabling users to retrieve historical records and analyze trends over time.
+        <br>
+        With its comprehensive functionality and user-friendly interfaces, this system transforms any home into a smart, connected environment, enhancing convenience, comfort, and energy efficiency.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Existing home automation systems lack comprehensive control over appliances and environmental monitoring, hindering convenience and energy efficiency. A solution with mobile app and website control, plus temperature/humidity monitoring, is needed.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+
+    links: 
+      - static\project_img\hardware\Smart Home Controlling System\img1.png
+      - static\project_img\hardware\general parts\oled.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+      - static\project_img\hardware\general parts\dht11.jpeg
+
+  Radar System:
+    img_path : static\project_img\hardware\Radar System\img1.jpeg
+    desc : Detects objects, aims servo gun, logs and predicts detection coordinates.
+    tech : ThingsSpeak, Static Website, Mobile App, Servo soft gun
+    domain : IoT
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20RadarSystem
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br>
+        The Radar System is an advanced object detection and tracking solution designed to enhance security and surveillance capabilities. Utilizing sophisticated radar technology, this system accurately detects objects within its sensing area and determines their precise locations. Once an object is detected, the system dynamically points a servo gun towards the target, ensuring immediate response to potential threats.
+        <br>
+        A key feature of this Radar System is its ability to log data with time stamps, creating a comprehensive record of all detected objects and their movements. This data is then uploaded to a secure server, where it can be accessed and analyzed in real-time. By examining the object detection patterns and coordinates, the system is capable of predicting future object locations, enabling preemptive actions and improved situational awareness.
+        <br>
+        The system's robust design and accurate detection capabilities make it suitable for a wide range of applications, including military defense, perimeter security, and automated surveillance. Its ability to provide real-time data logging and predictive analytics ensures a proactive approach to security, enhancing both efficiency and effectiveness. With this Radar System, users can achieve a higher level of precision and reliability in object detection and response.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Current surveillance systems lack precise object detection, tracking, and predictive capabilities, limiting response efficiency. An advanced radar system with servo aiming and predictive analytics is required for enhanced security and surveillance.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+
+    links: 
+      - static\project_img\hardware\Radar System\img1.jpeg
+      - static\project_img\hardware\general parts\oled.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+      - static\project_img\hardware\general parts\dht11.jpeg
+
+  Smart Irrigation System:
+    img_path : static\project_img\hardware\Smart Irrigation System\img1.png
+    desc : Detects soil moisture, controls relay, uploads data, predicts dryness.
+    tech : ThingsSpeak, Static Website, Mobile App, Relay, ESP32
+    domain : IoT
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartIrrigationSystem
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br>
+        The Smart Irrigation System is an innovative solution designed to optimize water usage and enhance agricultural efficiency. By accurately detecting soil moisture levels, this system can automatically turn the irrigation pump on or off, ensuring that plants receive the right amount of water precisely when needed. This automated control helps in conserving water, reducing manual labor, and promoting healthier plant growth.
+        <br>
+        Key features of the system include real-time data logging and server uploads. Soil moisture levels and the pump's ON/OFF status are continuously monitored and recorded, providing valuable insights into irrigation patterns and soil conditions. This data is uploaded to a secure server, where users can access it remotely for analysis and decision-making.
+        <br>
+        The Smart Irrigation System also incorporates predictive analytics to forecast the wet-to-dry interval time of the soil. By analyzing historical data, the system can predict how quickly the soil will dry out, allowing for more proactive irrigation scheduling. This ensures that plants never suffer from water stress, maintaining optimal soil moisture levels at all times.
+        <br>
+        Designed for ease of use and efficiency, the Smart Irrigation System is ideal for both small-scale gardens and large agricultural fields. It represents a significant step forward in sustainable farming practices, combining technology with agriculture for better resource management.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Traditional irrigation systems lack automated moisture detection, efficient water management, and predictive capabilities, leading to water wastage and suboptimal plant care. A smart, predictive, and automated solution is needed.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Irrigation System\img1.png
+      - static\project_img\hardware\general parts\soil moisture.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+      - static\project_img\hardware\general parts\dht11.jpeg
+
+
+
+
+  Smart Parking System:
+    img_path : static\project_img\hardware\Smart Parking System\iot-based-smart-parking-system-project.png
+    desc : Detects slots, displays availability, automates gate, enables booking/payment.
+    tech : ESP32, Arduino, ThingsSpeak, Static Website, Mobile App, Servo
+    domain : IoT
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartParkingSystem
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Detects 4 parking slots.
+        - Displays available slots.
+        - Opens gate bar if an incoming car is detected and slots are available.
+        - Displays slots on mobile app and website.
+        - Enables slot booking with integrated payment.
+        - Supports card payment. (TEST Mode)
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Traditional parking systems lack real-time slot detection, automated gate control, and integrated booking/payment, leading to inefficiency and user inconvenience. A smart, automated solution with booking and payment features is needed.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM : Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Parking System\iot-based-smart-parking-system-project.png
+      - static\project_img\hardware\general parts\oled.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+      - static\project_img\hardware\general parts\ir module.jpeg
+
+
+
+  Smart Attendence System:
+    img_path : static\project_img\hardware\Smart Attendence System\img4.png
+    desc : Registers students/teachers, marks attendance, tracks timetable, holidays. 
+    tech : Website, ESP32, battery, 4x4keypad, Oled
+    domain : IoT
+
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartAttendenceSystem
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        - Registers students.
+        - Registers teachers.
+        - Marks attendance.
+        - Registers the timetable.
+        - Tracks student attendance rates.
+        - Tracks holidays.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Current attendance systems lack efficiency in student/teacher registration, real-time tracking, and comprehensive reporting, leading to administrative challenges. A smart, automated solution is needed for streamlined attendance and timetable management.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Smart Attendence System\img4.png
+      - static\project_img\hardware\Smart Attendence System\img1.png
+      - static\project_img\hardware\Smart Attendence System\img2.png
+      - static\project_img\hardware\Smart Attendence System\img3.png
+
+  Smart Lock:
+    img_path : static\project_img\skeleton.jpg
+    desc : ESP32 based, keypad lock 
+    tech : Real Time Embedded System
+    domain : IoT
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20SmartAttendenceSystem
+
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+  Transmission Line Fault Detection:
+    img_path : static\project_img\hardware\Transmission Line Fault Detection\img1.png
+    desc : Detects faults, alerts server, auto cut-off, monitors parameters.
+    tech : AC Bulb, microcontroller, alert notification, auto power cutoff
+    domain : IoT
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20TransmissionLineFaultDetection
+
+    markdowndetails : |
+
+        # Project Description:
+        ======================<br><br>
+
+        The Transmission Line Fault Detection system is an advanced solution designed to enhance the reliability and safety of power transmission networks. This system can accurately detect power faults in real-time, ensuring quick identification and response to potential issues. Upon detecting a fault, the system immediately sends alerts to the server, enabling rapid intervention and minimizing downtime.
+        <br>
+        Key features include automatic cutoff to prevent damage to equipment and ensure safety. The system also monitors voltage and current levels continuously, providing valuable data for maintaining optimal performance. Fault data is logged for detailed analysis, helping in understanding fault patterns and improving future fault management strategies.
+        <br>
+        Additionally, the system offers real-time fault location, allowing for precise identification of the fault's position within the transmission line. This feature supports quick recovery and restoration of services, minimizing the impact on consumers. Remote management and control capabilities enable operators to oversee and manage the system from any location, integrating seamlessly with smart grid systems to enhance overall grid efficiency.
+        <br>
+        Designed with both reliability and safety in mind, the Transmission Line Fault Detection system represents a significant advancement in power network management, providing robust solutions for maintaining uninterrupted and efficient power supply.
+
+        <br>
+        <br>
+
+        # Project Features:
+        ======================<br><br>
+
+        - --> Detects power faults.
+        - --> Sends alerts to the server.
+        - --> Performs automatic cutoff.
+        - --> Monitors voltage and current levels.
+        - --> Logs fault data for analysis.
+        - --> Provides real-time fault location.
+        - --> Supports remote management and control.
+        - --> Ensures quick recovery and restoration.
+        - --> Integrates with smart grid systems.
+        - --> Enhances system reliability and safety.
+
+        <br>
+        <br>
+
+
+        # Problem Statement:
+        =====================<br>
+        Traditional power transmission systems struggle with timely fault detection, alerts, and automated responses, leading to prolonged outages and safety risks. An advanced, automated solution is needed for real-time fault management.
+
+
+        <br>
+        <br>
+
+        ## Report Contents:
+        ==============<br>
+        - --> Components List (BOM: Bill of Material)
+        - --> Block Diagram
+        - --> Flow Chart
+        - --> Components : Name, Images, Details
+        - --> Circuit Diagram
+        - --> Problem Statement
+        - --> Abstract
+        - --> Introduction
+        - --> Methodology
+        - --> Challenges and Solutions
+        - --> Performance Analysis
+        - --> Advantages
+        - --> Limitation
+        - --> Application
+        - --> Future Scope
+        - --> Conclusion
+        - --> Output Images
+
+        <br>
+        <br>
+
+        ## Project Deliverables:<br>
+        ================
+        - --> Project Hardware
+        - --> Project Report
+        - --> Project Simulation
+        
+    links: 
+      - static\project_img\hardware\Transmission Line Fault Detection\img1.png
+      - static\project_img\hardware\general parts\ac bulb.jpeg
+      - static\project_img\hardware\general parts\esp32.jpeg
+      - static\project_img\hardware\general parts\relay.jpeg
+
+  Finger Print Door Lock System:
+    img_path : static\project_img\skeleton.jpg
+    desc : ESP32 based, real time lock 
+    tech : ThingsSpeak, Static Website, Mobile App
+    domain : IoT
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Rava%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+  Smart Dustbin:
+    img_path : static\project_img\skeleton.jpg
+    desc : ESP32 based, Smart Dustbin 
+    tech : ThingsSpeak, Static Website, Mobile App
+    domain : IoT
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Rava%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+
+  
+  # AgroSense:
+    # img_path : static\project_img\skeleton.jpg
+    # desc : Its an IoT based plant root 3 level soil moisture detector.   
+    # tech : Django, SQL Database
+    # domain : IoT, Web App
+    # whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20_Rava%20Laddu%20500grm/6pices/Rs.500/-
+
+  
+
+
+
+software:
+  Video Subtitle:
+    img_path : static\project_img\software\video-subtitle.png
+    desc : We can add video + subtitle & then can play it (Video with subtitle)
+    tech : Django
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20AgroSense%20Project%20pls%20share%20more%20info
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+  
+  PlayTube:
+    img_path : static\project_img\skeleton.jpg
+    desc : Its is a Clone of YouTube.
+    tech : Django, Scraped Youtube Data 
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Methi%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+  
+  Interactive Dashboard:
+    img_path : static\project_img\skeleton.jpg
+    desc : project description
+    tech : Django, Stocks Database
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Rava%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+  
+  Yolo Drone Aeroplane Detection:
+    img_path : static\project_img\skeleton.jpg
+    desc : project description
+    tech : project tech stack
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20_Rava%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+
+
+
+
+
+mechanical:
+  mechVideo Subtitle:
+    img_path : static\project_img\software\video-subtitle.png
+    desc : We can add video + subtitle & then can play it (Video with subtitle)
+    tech : Django
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20AgroSense%20Project%20pls%20share%20more%20info
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+  
+  mechPlayTube:
+    img_path : static\project_img\skeleton.jpg
+    desc : Its is a Clone of YouTube.
+    tech : Django, Scraped Youtube Data 
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Methi%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+
+simulation:
+  simulation1:
+    img_path : static\project_img\software\video-subtitle.png
+    desc : We can add video + subtitle & then can play it (Video with subtitle)
+    tech : Django
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20AgroSense%20Project%20pls%20share%20more%20info
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+  
+  simulation456:
+    img_path : static\project_img\skeleton.jpg
+    desc : Its is a Clone of YouTube.
+    tech : Django, Scraped Youtube Data 
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Methi%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+
+
+
+
+science:
+  science123:
+    img_path : static\project_img\software\video-subtitle.png
+    desc : We can add video + subtitle & then can play it (Video with subtitle)
+    tech : Django
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20AgroSense%20Project%20pls%20share%20more%20info
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+  
+  science456:
+    img_path : static\project_img\skeleton.jpg
+    desc : Its is a Clone of YouTube.
+    tech : Django, Scraped Youtube Data 
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Methi%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+      <br>
+      **Bold text** and *italic text*.
+      [Link to OpenAI](https://www.openai.com)
+
+
+
+
+
+
+origami:
+  origami123:
+    img_path : static\project_img\software\video-subtitle.png
+    desc : We can add video + subtitle & then can play it (Video with subtitle)
+    tech : Django
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20AgroSense%20Project%20pls%20share%20more%20info
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+  
+  origami456:
+    img_path : static\project_img\skeleton.jpg
+    desc : Its is a Clone of YouTube.
+    tech : Django, Scraped Youtube Data 
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Methi%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+
+  origami786:
+    img_path : static\project_img\skeleton.jpg
+    desc : Its is a Clone of YouTube.
+    tech : Django, Scraped Youtube Data 
+    domain : Web App
+    whatsappmsg: https://wa.me/8169239027?text=I'm%20interested%20in%20Methi%20Laddu%20500grm/6pices/Rs.500/-
+    markdowndetails : |
+
+      # Sample Markdown Content
+      ===============	
+
+      ## This is a sub-heading
+
+      - --> Bullet point 1
+      - --> Bullet point 2
+      - --> Bullet point 3
+
+      <br>
+
+      1. First item
+      2. Second item
+      3. Third item
+      4. Fourth item
+
+      **Bold text** and *italic text*.
+
+      [Link to OpenAI](https://www.openai.com)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+info:
+  history: usdyvehjh history data
+  about: about data
+  usage: usage data
+  benefits: benefits data
+
